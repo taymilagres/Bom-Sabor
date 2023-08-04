@@ -1,6 +1,6 @@
 
 # Projeto Bom Sabor
-É uma aplicação do nicho de culinária, onde seu contéudo abrange diversas receitas com o objetivo de ajudar as pessoas que não sabem cozinhar a desenvolver essa atividade com facilidade.
+Aplicação do nicho de culinária, onde seu contéudo abrange diversas receitas com o objetivo de ajudar as pessoas que não sabem cozinhar a desenvolver essa atividade com facilidade.
 
 # 1. Documentação de Contexto
 Desde os primórdios há uma discrepancia entre a humanidade a respeito da ação "Cozinhar", isso porque culturalmente em sua maioria, o hábito de cozinhar é inserido marjoritariamente na vida das mulheres desde a infância fazendo com que elas desenvolvam habilidades culinárias ao longo do tempo, ao contrário dos homens que só começam a se inserir no mundo da culinária quando já estão adultos, fazendo com que os mesmos se frustem quando alguma receita não sai como planejado.
