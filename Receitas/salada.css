@@ -207,7 +207,7 @@ nav a:hover::after{
 .info{
    display: flex;
    flex-direction: column;
-   background-color: #F8F4F4;
+   background-color: #f1efef;
    width: 27.5vw;
    border-radius: 20px;
    margin-left: 35%;
