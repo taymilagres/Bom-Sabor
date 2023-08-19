@@ -78,7 +78,7 @@ header{
     border: none;
     color: #fff;
     font-weight: 600;
-    width: 7vw;
+    width: 9vw;
     height: 5vh;
     border-radius: 20px;
     font-size: 15px;
@@ -103,12 +103,17 @@ header{
     font-size: 15px; 
     margin-right: 2%;
     cursor: pointer;
-    box-shadow: -2px 5px 13px -4px rgba(184,182,184,1);
+    box-shadow: -2px 5px 13px -4px rgba(102,102,102,1);
 
 }
 
 .cad:hover{
     background-color: #df7e07;
+}
+
+header a{
+    text-decoration: none;
+    color: #fff;
 }
 
 /* NAVEGATION */

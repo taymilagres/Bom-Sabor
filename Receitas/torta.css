@@ -113,6 +113,11 @@ input{
     background-color: #df7e07;
 }
 
+header a {
+    text-decoration: none;
+    color: #fff;
+}
+
 /* NAVEGATION */
 nav {
     width: 100%;
