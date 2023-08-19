@@ -3,12 +3,13 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="entre.css">
-    <link rel="shortcut icon" href="../img/panela.png" type="image/x-icon">
     <title>Bom Sabor</title>
+
+    <link rel="stylesheet" href="cad.css">
+    <link rel="shortcut icon" href="../img/panela.png" type="image/x-icon">
 </head>
 <body>
-    
+
     <header>
         <figure class="headerLogo">
             <a href="../index.html">
@@ -21,8 +22,8 @@
            <img class="lupa" src="../img/lupa 1.png" alt="Pesquisar">
         </div>
     
-        <button class="entre" id="entrar"> <a href="entre.html">ENTRE</a></button>
-        <button class="cad" id="cad"> <a href="../Cadastro/cad.html">CADASTRE-SE</a></button>
+        <button class="entre" id="entrar"> <a href="../Entrar/entre.html">ENTRE</a></button>
+        <button class="cad" id="cad"> <a href="cad.html">CADASTRE-SE</a></button>
     </header>
     
     <nav class="nav">
@@ -38,25 +39,30 @@
         <section class="container">
             <div>
                 <figure>
-                    <img src="../img/login.png" alt="contato">
+                    <img src="../img/imgCad.png" alt="contato">
                 </figure>
             </div>
 
             <div class="conteudo" id="conteudo">
-                <h1>Seja bem-vindo!</h1>
+                <h1>Cadastre-se</h1>
 
                 <div class="label" id="label">
+                    <label for="name" type="name" id="name">Nome completo:</label>
+                    <input type="text" class="inpName" id="inpName">
 
                     <label for="e-mail" type="e-mail" id="email">E-mail:</label>
-                    <input type="email" class="inpEmail" id="inpEmail">
+                    <input type="text" class="inpEmail" id="inpEmail">
 
                     <label for="assunto" type="text" id="assunto">Senha:</label>
                     <input type="password" class="inpSenha" id="inpAssunto">
 
-                    <button class="enviar" id="enviar">Entrar</button>
+                    <label for="msg" type="msg" id="msg">Confirme a senha:</label>
+                    <input type="password" class="inpSenha" id="inpNovaSenha">
+
+                    <button class="enviar" id="enviar"><a href="#">Enviar</a></button>
                 </div>
 
-               <span>Esqueceu sua senha?<em>Clique aqui!</em></span>
+               
 
             </div>
         </section>
@@ -88,5 +94,8 @@
         </section>
     </footer>
 
+</body>
+</html>
+    
 </body>
 </html>
