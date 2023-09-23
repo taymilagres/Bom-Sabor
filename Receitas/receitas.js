@@ -1,54 +1,14 @@
-//Alteração da foto de perfil do usuário
-
-let perfil = document.getElementById('imgPerfil');
-let file = document.getElementById('filePerfil');
-
-perfil.addEventListener('click', () => {
-    file.click();
-})
-
-file.addEventListener('change', (event) => {
-    
-    let reader = new FileReader();
-
-    reader.onload = () =>{
-        perfil.src = reader.result;
-    }
-
-    reader.readAsDataURL(file.files[0]);
-})
-
-//Alteração da foto do banner do usuário
-
-let banner = document.getElementById('imgBanner');
-let fileBanner = document.getElementById('fileImg');
-
-banner.addEventListener('click', () => {
-    fileBanner.click();
-})
-
-fileBanner.addEventListener('change', (event) => {
-    
-    let reader = new FileReader();
-
-    reader.onload = () =>{
-        banner.src = reader.result;
-    }
-
-    reader.readAsDataURL(file.files[0]);
-})
-
 // Dados de pesquisa
 
 var itemURLs = {
-    Camarão_Grelhado: '../Receitas/camarao.html',
-    Carne_de_Panela: './../Receitas/carne.html',
-    Lámen: '../Receitas/lamen.html',
-    Panqueca_Doce: '../Receitas/panqueca.html',
-    Peixe_ao_Molho: '../Receitas/peixe.html',
-    Pizza: '../Receitas/pizza.html',
-    Salada_Caesar: '../Receitas/salada.html',
-    Torta_de_Limão: '../Receitas/torta.html'
+    Camarão_Grelhado: 'camarao.html',
+    Carne_de_Panela: 'carne.html',
+    Lámen: 'lamen.html',
+    Panqueca_Doce: 'panqueca.html',
+    Peixe_ao_Molho: 'peixe.html',
+    Pizza: 'pizza.html',
+    Salada_Caesar: 'salada.html',
+    Torta_de_Limão: 'torta.html'
   };
   
   var receitas = ['Camarão_Grelhado', 'Carne_de_Panela', 'Lámen', 'Panqueca_Doce', 'Peixe_ao_Molho', 'Pizza', 'Salada_Caesar', 'Torta_de_Limão'];

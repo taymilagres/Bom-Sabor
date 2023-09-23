@@ -75,6 +75,43 @@ input{
     cursor: pointer;
 }
 
+/* DADOS DE PESQUISA */
+
+.busca{
+       
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    font-size: 1rem;
+    border-radius: 10px;
+    top: 14%;
+    left: 31%;
+    background-color: rgba(255, 253, 253, 0.922);
+    width: 43%;
+    text-align: center;
+    margin-top: 5px;
+    float: left;
+    z-index: 5;
+  
+  
+  }
+
+  ul{
+    list-style: none;;
+  }
+  
+  .busca li{
+     padding-top: 10px;
+     z-index: 5;
+  }
+  
+  .busca ul li a{
+    color: #000000;
+
+  }
+
+/* --- */
+
 .entre{
     background-color: #D8C307;
     border: none;
