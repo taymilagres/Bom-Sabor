@@ -1,5 +1,11 @@
 
 # Projeto Bom Sabor
+
+<div align=center>
+ 
+![bomsabor (1)](https://github.com/taymilagres/Bom-Sabor/assets/127251265/e6bb09f4-b3bb-40a1-9db8-dd7685b8a4cb)
+</div>
+
 Aplicação do nicho de culinária, onde seu contéudo abrange diversas receitas com o objetivo de ajudar as pessoas que não sabem cozinhar a desenvolver essa atividade com facilidade.
 
 # 1. Documentação de Contexto
