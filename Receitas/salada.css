@@ -75,6 +75,10 @@ input{
     cursor: pointer;
 }
 
+.menuMobile {
+    visibility: hidden;
+}
+
 /* DADOS DE PESQUISA */
 
 .busca{
@@ -243,6 +247,9 @@ nav a:hover::after{
     margin-bottom: 2%;
 }
 
+.saladaImg > img {
+    width: 30vw;
+}
 
 /* BOX DE INFORMAÇÕES */
 
@@ -250,7 +257,7 @@ nav a:hover::after{
    display: flex;
    flex-direction: column;
    background-color: #f1efef;
-   width: 27.5vw;
+   width: 30vw;
    border-radius: 20px;
    margin-left: 35%;
    margin-bottom: 15%;
@@ -308,6 +315,14 @@ strong{
 h1, h4{
     color: #CC7105;
 }
+
+h1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-bottom: solid 1px;
+}
+
 .receita{
     display: flex;
     flex-direction: column;
@@ -451,4 +466,558 @@ footer li{
     align-items: center;
     justify-content: center;
     display: flex;
+}
+
+/* Medias Queries*/
+
+/* Mobile */
+
+@media screen and (max-width: 500px) {
+
+    /*Header*/
+    header{
+        width: 100vw;
+        height: 20%;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        background-image: url(imagens/header.png);
+        background-size: 100% 100%;
+        
+    
+    }
+    
+    .headerLogo{
+        padding-top: 0%;
+        padding-bottom: 0%;
+        margin-right: 2%;
+        margin-left: 2%;
+        cursor: pointer;
+    
+        
+    }
+
+    .headerLogo > a > img {
+        width: 15vw;
+    }
+    
+    .search{
+        display: flex;
+        flex-direction: row;
+        width: 50%;
+        top: 0;
+        position: relative;
+    }
+    
+    input{
+        width: 100%;
+        height: 3.5vh;
+        border-radius: 20px;
+        position: relative; 
+        padding-left: 5%;
+        padding-right: 6%;
+    }  
+        
+    
+    .lupa{
+        display: flex;
+        margin: 5px;
+        width: 15px;
+        left: 84%;
+        bottom: 0.1%;
+        position: absolute;
+        cursor: pointer;
+    }
+    
+    /* --- */
+
+    .entre{
+        display: none;
+    }
+
+    
+
+    .cad{
+        display: none;
+
+    }
+
+    .menuMobile {
+        visibility: visible;
+        margin-right: 6%;
+        
+    }
+
+    .menuMobile > .fa-bars{
+        font-size: 1.4rem;
+    }
+
+    nav > ol {
+        display: none;
+    }
+
+    nav {
+        display: none;
+    }
+
+    
+    /* Titulo */
+    .titulo{    
+        font-size: 18px;    
+        width: 50vw;
+        height: 4vh;
+        margin-left: 25%;
+        margin-right: 25%;
+        margin-top: 4%;
+        
+    }
+
+    /* Imagem e informações*/
+    .saladaImg > img{
+        width: 42vw;
+        height: 32vh;
+    }
+
+    .container{
+        display: flex;  
+        flex-direction: column;    
+    }
+
+    .imgInfo {
+        display: flex;
+        flex-direction: row ;
+        margin-left: 3% !important;
+        margin-right: 5%;
+            
+    }
+
+    .saladaImg{
+        margin-left: 2%;
+        margin-top: 9%;
+        margin-bottom: 2%;
+        
+        
+    }
+
+    .receita {
+        margin-left: 9%;
+    }
+
+    .receita > h1 {
+        font-size: 18px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-bottom: solid 1px;
+    }
+
+    .receita > h4 {
+        font-size: 14px;;
+    }
+
+    .receita > p {
+        font-size: 12px;
+    }
+
+
+    .info{
+        width: 50vw;
+        height: 32vh;
+        border-radius: 20px;
+        margin-left: 3%;
+        margin-bottom: 0%;
+        margin-top: 9%;
+        padding: 2%;
+        border-radius: 9px;
+       
+    } 
+
+    .time > img, .nivel > img, .fav > img {
+        margin-right: 4%;
+        width: 6vw !important;
+    }
+
+    .time{
+        padding-bottom: 10%;
+    }
+    
+    .nivel{
+        padding-bottom: 10%;  
+    }
+    
+    .info p{
+        font-size: 12px;
+    }
+     
+    /* COPYRIGHT */
+    .copyrigth > p {
+        font-size: 12px;
+    }
+
+    /* FOOTER*/ 
+    .footer{
+        height: 9vh;
+    }
+
+    .footerImg > a > img {
+        width: 20vw;
+        padding-top: 10%;
+    }
+
+    footer li{
+        font-size: 12px;
+    }
+   
+}
+
+@media screen and (min-width: 501px) and (max-width: 900px) {
+    header{
+        width: 100vw;
+        height: 20%;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        background-image: url(imagens/header.png);
+        background-size: 100% 100%;
+        
+    
+    }
+    
+    .headerLogo{
+        padding-top: 0%;
+        padding-bottom: 0%;
+        margin-right: 2%;
+        margin-left: 2%;
+        cursor: pointer;
+    
+        
+    }
+
+    .headerLogo > a > img {
+        width: 15vw;
+    }
+    
+    .search{
+        display: flex;
+        flex-direction: row;
+        width: 50%;
+        top: 0;
+        position: relative;
+    }
+    
+    input{
+        width: 100%;
+        height: 3.5vh;
+        border-radius: 20px;
+        position: relative; 
+        padding-left: 5%;
+        padding-right: 6%;
+    }  
+        
+    
+    .lupa{
+        display: flex;
+        margin: 5px;
+        width: 15px;
+        left: 88%;
+        bottom: 0.1%;
+        position: absolute;
+        cursor: pointer;
+    }
+    
+    /* --- */
+
+    .entre{
+        font-size: 1.5vw;
+        width: 12vw;
+        height: 4vh;
+        margin-left: 2%;
+    }
+
+    
+
+    .cad{
+        font-size: 1.5vw;
+        width: 18vw;
+        height: 4vh;
+
+    }
+
+    
+
+    nav > ol {
+        font-size: 1.7vw;
+    }
+
+    nav {
+        height: 5vh;
+    }
+
+     /* Titulo */
+     .titulo{    
+        font-size: 20px;    
+        width: 40vw;
+        height: 4vh;
+        margin-left: 30%;
+        margin-right: 30%;
+        margin-top: 4%;
+        
+    }
+
+    /* Imagem e informações*/
+    .saladaImg > img{
+        width: 39vw;
+       
+    }
+
+    .saladaImg{
+        margin-left: 2%;
+        margin-top: 9%;
+        margin-bottom: 0%;
+        
+        
+    }
+
+    .receita {
+        margin-left: -6%;
+        width: 100%;
+    }
+
+    .receita > h1 {
+        font-size: 15px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-bottom: solid 1px;
+        border-bottom: solid 1px;
+        
+    }
+
+    .receita > h4 {
+        font-size: 14px;;
+    }
+
+    .receita > p {
+        font-size: 12px;
+    }
+
+
+    .info{
+        width: 39vw;
+        height: 25vh;
+        border-radius: 20px;
+        margin-left: 3%;
+        margin-bottom: 0%;
+        margin-top: 4%;
+        padding: 2%;
+        border-radius: 9px;
+       
+    } 
+
+    .time > img, .nivel > img, .fav > img {
+        margin-right: 4%;
+        width: 4vw !important;
+    }
+
+    .time{
+        padding-bottom: 10%;
+    }
+    
+    .nivel{
+        padding-bottom: 10%;  
+    }
+    
+    .info p{
+        font-size: 12px;
+    }
+
+    .imgInfo {
+        margin-top: 8%;
+        margin-left: 8%;
+    }
+
+}
+
+@media screen and (min-width: 901px) and (max-width: 1120px){
+    
+    
+
+}
+
+@media screen and (min-width: 1999px) and (max-width: 2280px){
+    .headerLogo{
+        padding-top: 0%;
+        padding-bottom: 0%;
+        margin-right: 8%;
+        margin-left: 2%;
+        cursor: pointer;
+    
+        
+    }
+
+    .headerLogo > a > img {
+        width: 10vw;
+    }
+    
+    .search{
+        display: flex;
+        flex-direction: row;
+        width: 50%;
+        top: 0;
+        position: relative;
+    }
+    
+    input{
+        width: 95%;
+        height: 3.5vh;
+        border-radius: 20px;
+        position: relative; 
+        padding-left: 5%;
+        padding-right: 6%;
+    }  
+        
+    .lupa{
+        display: flex;
+        margin: 5px;
+        width: 32px;
+        left: 88%;
+        bottom: 0.1%;
+    }
+    
+    
+    /* --- */
+
+    .entre{
+        margin-left: 1%; 
+        font-size: 1.2vw;
+        height: 4vh;
+    }
+
+    
+
+    .cad{
+        font-size: 1.2vw;
+        margin-left: -2%;
+        width: 12vw;
+        height: 4vh;
+
+    }
+
+    
+
+    
+    nav > ol {
+        font-size: 1.4vW;
+    }
+
+   
+
+    
+    /* Titulo */
+    .titulo{    
+        font-size: 45px;    
+        width: 35vw;
+        height: 5vh;
+        margin-left: 33%;
+        margin-right: 33%;
+        margin-top: 4%;
+        
+    }
+
+    /* Imagem e informações*/
+    .saladaImg > img{
+        width: 30vw;
+        height: 58vh;
+    }
+
+    .container{
+        margin-left: 5%;
+        margin-left: 5%;
+    }
+
+    .imgInfo {
+        margin-left: 3% !important;
+        margin-right: 4%;
+            
+    }
+
+    .saladaImg{
+        margin-left: 15%;
+        margin-top: 9%;
+        margin-bottom: 0%;
+        
+        
+    }
+
+    .receita {
+        margin-left: -18%;
+    }
+
+    .receita > h1 {
+        font-size: 35px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-bottom: solid 1px;
+    }
+
+    .receita > h4 {
+        font-size: 25px;;
+    }
+
+    .receita > p {
+        font-size: 16px;
+    }
+
+
+    .info{
+        width: 30vw;
+        height: 20vh;
+        border-radius: 20px;
+        margin-left: 15%;
+        margin-bottom: 0%;
+        margin-top: 9%;
+        padding: 2%;
+        border-radius: 10px;
+       
+    } 
+
+    .time > img, .nivel > img, .fav > img {
+        margin-right: 2%;
+        margin-left: 2%;
+        width: 2vw !important;
+    }
+
+    .time{
+        padding-bottom: 5%;
+    }
+    
+    .nivel{
+        padding-bottom: 5%;  
+    }
+    
+    .info p{
+        font-size: 22px;
+    }
+     
+    /* COPYRIGHT */
+    .copyrigth > p {
+        font-size: 30px;
+    }
+
+    /* FOOTER*/ 
+    .footer{
+        height: 12vh;
+    }
+
+    .footerImg > a > img {
+        width: 7vw;
+        padding-top: 10%;
+    }
+
+    footer li{
+        font-size: 27px;
+    }
 }
