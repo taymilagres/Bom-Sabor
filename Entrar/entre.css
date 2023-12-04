@@ -109,6 +109,11 @@ header{
 
   }
 
+  .menuMobile {
+    visibility: hidden;
+}
+
+
 /* --- */
 
 .entre{
@@ -362,4 +367,419 @@ footer li{
     align-items: center;
     justify-content: center;
     display: flex;
+}
+
+
+/* MEDIAS QUERIES */
+/* Mobile */
+
+@media screen and (max-width: 500px) {
+
+    /*Header*/
+    header{
+        width: 100vw;
+        height: 20%;
+        background-size: 100% 100%;
+        
+        
+    
+    }
+    
+    .headerLogo{
+        padding-top: 0%;
+        padding-bottom: 0%;
+        margin-right: 2%;
+        margin-left: 2%;
+        cursor: pointer;
+        
+        
+    }
+
+    .headerLogo > a > img {
+        width: 15vw;
+    }
+    
+    .search{
+        display: flex;
+        flex-direction: row;
+        width: 50%;
+        top: 0;
+        position: relative;
+    }
+
+
+    
+    
+    input{
+        width: 100%;
+        height: 3.5vh !important;
+        border-radius: 20px;
+        position: relative; 
+        padding-left: 5%;
+        padding-right: 6%;
+    }  
+        
+    
+    .lupa{
+        display: flex;
+        margin: 5px;
+        width: 15px;
+        left: 84%;
+        bottom: 0.1%;
+        position: absolute;
+        cursor: pointer;
+    }
+    
+    /* --- */
+
+    .entre{
+        display: none;
+    }
+
+    
+
+    .cad{
+        display: none;
+
+    }
+
+    .menuMobile {
+        visibility: visible;
+        margin-right: 6%;
+        
+    }
+
+    .menuMobile > .fa-bars{
+        font-size: 1.4rem;
+    }
+
+    nav > ol {
+        display: none;
+    }
+
+    nav {
+        display: none;
+    }
+
+
+
+    /* Box de entre*/
+
+    .container{
+        display: grid;
+        grid-template-columns: 100%;
+        width: 80%;
+        margin-bottom: 10%;
+    }
+
+    .container img{
+        display: flex;
+        align-items: center;
+        justify-content:center;
+        width: 22vw;
+        height: 14vh;   
+        margin-left: 37%;
+        margin-top: 5%;
+        border-radius: 50%;     
+    }
+
+    .container h1{
+        color: #c4710b;
+        font-weight: 600;
+        font-family: 'Inter';
+        font-size: 1.2em;
+        margin-top: -12%;
+    }
+
+    .label{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        margin: 5%;
+        width: 88%;
+        padding-left: 2%;
+        
+    }
+    
+    .label button{
+        width: 50vw;
+        height: 4.5vh;
+        margin-left: 14%;
+
+    
+    }
+    
+    .inpEmail, .inpSenha{
+        height: 5vh !important;
+
+    }
+
+    .conteudo > span {
+        font-size: 4vw;
+        margin-top: -10%;
+        margin-bottom: 10%;
+    }
+    
+    /* COPYRIGHT */
+    .copyrigth > p {
+        font-size: 12px;
+    }
+
+    /* FOOTER*/ 
+    .footer{
+        height: 9vh;
+    }
+
+    .footerImg > a > img {
+        width: 20vw;
+        padding-top: 10%;
+        margin-left: 20%;
+    }
+
+    footer li{
+        font-size: 12px;
+    }
+
+    footer ul {
+        margin-left: -20%;
+    }
+}
+
+@media screen and (min-width: 501px) and (max-width: 900px) {
+    header{
+        width: 100vw;
+        height: 20%;
+        background-size: 100% 100%;
+        
+    }
+        
+    
+    .headerLogo{
+        padding-top: 0%;
+        padding-bottom: 0%;
+        margin-right: 2%;
+        margin-left: 2%;
+        cursor: pointer;                   
+    }
+    
+    .headerLogo > a > img {
+        width: 15vw;
+    }
+
+    input{
+        height: 3.5vh !important;
+    }  
+        
+    
+    .lupa{
+        display: flex;
+        margin: 5px;
+        width: 14px;
+        left: 88%;
+        bottom: 0.1%;
+        position: absolute;
+        cursor: pointer;
+    }
+    
+    /* --- */
+
+    .entre{
+        font-size: 1.5vw;
+        width: 12vw;
+        height: 4vh;
+        margin-left: 2%;
+    }
+
+    
+
+    .cad{
+        font-size: 1.5vw;
+        width: 18vw;
+        height: 4vh;
+
+    }
+
+    
+
+    nav > ol {
+        font-size: 1.7vw;
+    }
+
+    nav {
+        height: 5vh;
+    }
+
+    /* Box de Contato */
+
+    .container{
+        width: 85%;
+        margin-bottom: 10%; 
+        
+
+    }
+    
+    .container img{
+        width: 100%;
+        height: 50vh;     
+            
+    }
+
+    
+    .conteudo{
+        margin-top: 20%;
+    }
+    
+    .container h1{
+        color: #d57907;
+        font-weight: 600;
+        font-size: 1.3em;
+    }
+    
+    .conteudo button{
+        font-weight: 600;
+        font-size: 1em;
+        width: 25vw;
+        margin-left: 15%; 
+        margin-top: 20%;
+    }
+
+    .label{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        margin: 5%;
+        width: 88%;
+        padding-left: 2%;
+        font-size: 14px;
+    }
+
+     .inpEmail, .inpSenha{
+        height: 4vh !important;
+
+    }
+
+    .conteudo > span {
+        font-size: 12px;
+        margin-bottom: 10%;
+    }
+
+    /* FOOTER */
+
+    .footer {
+        height: 8vh;
+    }
+
+    .footerImg > a > img {
+        width: 10vw;
+        padding-top: 10%;
+        margin-left: 20%;
+    }
+
+    footer li{
+        font-size: 12px;
+    }
+
+    footer ul {
+        margin-left: -20%;
+    }
+    
+}     
+
+@media screen and (min-width: 901px) and (max-width: 1320px){
+    
+    header{
+        width: 100vw;
+        height: 24%;
+        background-size: 100% 100%;
+        
+    }
+        
+    
+    .headerLogo{
+        padding-top: 0%;
+        padding-bottom: 0%;
+        margin-right: 2%;
+        margin-left: 2%;
+        cursor: pointer;                   
+    }
+    
+    .headerLogo > a > img {
+        width: 10vw;
+    }
+
+    input{
+        height: 3.5vh !important;
+        
+    }  
+        
+    
+    .lupa{
+        display: flex;
+        margin: 5px;
+        width: 18px;
+        left: 93%;
+        bottom: 0.1%;
+        position: absolute;
+        cursor: pointer;
+    }
+    
+    .search{
+        display: flex;
+        flex-direction: row;
+        width: 50%;
+        top: 0;
+        position: relative;
+    }
+     
+    /* --- */
+
+    .entre{
+        font-size: 1.5vw;
+        width: 12vw;
+        height: 4vh;
+        margin-left: 2%;
+    }
+
+    
+
+    .cad{
+        font-size: 1.5vw;
+        width: 18vw;
+        height: 4vh;
+
+    }
+
+    
+
+    nav > ol {
+        font-size: 1.7vw;
+    }
+
+    nav {
+        height: 5vh;
+    }
+
+    .label{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        margin: 5%;
+        width: 88%;
+        padding-left: 2%;
+        font-size: 14px;
+    }
+
+     .inpEmail, .inpSenha{
+        height: 4vh !important;
+
+    }
+
+    .conteudo button{
+        font-weight: 600;
+        font-size: 1em;
+        width: 15vw;
+        margin-left: 20%; 
+        margin-top: 15%;
+    }
+
 }
