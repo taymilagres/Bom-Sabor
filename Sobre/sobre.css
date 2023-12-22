@@ -109,6 +109,10 @@ input{
 
   }
 
+  .menuMobile {
+    visibility: hidden;
+}
+
 /* --- */
 
 .entre{
@@ -248,7 +252,7 @@ nav a:hover::after{
 .conteudo img{
     width: 100%;
     margin-left: 25%;
-    box-shadow: -2px 5px 13px 2px rgb(53, 47, 47);
+    box-shadow: -2px 5px 13px 2px rgb(170, 170, 170);
     border-radius: 20px;
 }
 
@@ -338,4 +342,444 @@ footer li{
     align-items: center;
     justify-content: center;
     display: flex;
+}
+
+/* Medias Queries*/
+
+/* Mobile */
+
+@media screen and (max-width: 500px) {
+
+    /*Header*/
+    header{
+        width: 100vw;
+        height: 20%;
+        background-size: 100% 100%;
+        
+        
+    
+    }
+    
+    .headerLogo{
+        padding-top: 0%;
+        padding-bottom: 0%;
+        margin-right: 2%;
+        margin-left: 2%;
+        cursor: pointer;
+        
+        
+    }
+
+    .headerLogo > a > img {
+        width: 15vw;
+    }
+    
+    .search{
+        display: flex;
+        flex-direction: row;
+        width: 50%;
+        top: 0;
+        position: relative;
+    }
+
+
+    
+    
+    input{
+        width: 100%;
+        height: 3vh !important;
+        border-radius: 20px;
+        position: relative; 
+        padding-left: 5%;
+        padding-right: 6%;
+    }  
+        
+    
+    .lupa{
+        display: flex;
+        margin: 5px;
+        width: 12px;
+        left: 84%;
+        bottom: 0.1%;
+        position: absolute;
+        cursor: pointer;
+    }
+    
+    /* --- */
+
+    .entre{
+        display: none;
+    }
+
+    
+
+    .cad{
+        display: none;
+
+    }
+
+    .menuMobile {
+        visibility: visible;
+        margin-right: 6%;
+        
+    }
+
+    .menuMobile > .fa-bars{
+        font-size: 1.4rem;
+    }
+
+    nav > ol {
+        display: none;
+    }
+
+    nav {
+        display: none;
+    }
+
+    
+    /* Titulo */
+    .container > h1{    
+        font-size: 1em;    
+        width: 54vw;
+        height: 4vh;
+        margin-left: 25%;
+        margin-right: 25%;
+        padding-left: 15%;
+        margin-top: 4%;
+    }
+
+    /* Box de Infomações */
+
+
+    .container{
+        display: grid;
+        grid-template-columns: 100%;
+        width: 100vw;
+        margin-bottom: 10%;
+        
+    }
+
+    .container img{
+        margin-top: 5%;
+        display: flex;
+        width: 80vw;
+        margin-left: 0%;
+        box-shadow: none;    
+        
+                   
+    }
+
+    .conteudo {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .txtArea{
+        width: 83vw !important;
+        padding-left: 0%;
+        padding-right: 0%;
+        margin-top: 5%;
+       
+        text-align: justify;
+        font-size: 20px;
+
+        
+    }
+
+    /* Botões */
+
+    .conteudo button {
+        width: 30vw;
+    }
+
+    /* COPYRIGHT */
+    .copyrigth > p {
+        font-size: 13px;
+    }
+
+    /* FOOTER*/ 
+    .footer{
+        height: 9vh;
+    }
+
+    .footerImg > a > img {
+        width: 20vw;
+        padding-top: 10%;
+        margin-left: 20%;
+    }
+
+    footer li{
+        font-size: 12px;
+    }
+
+    footer ul {
+        margin-left: -20%;
+    }
+    
+}
+
+@media screen and (min-width: 501px) and (max-width: 900px) {
+    header{
+        width: 100vw;
+        height: 20%;
+        background-size: 100% 100%;
+        
+    }
+        
+    
+    .headerLogo{
+        padding-top: 0%;
+        padding-bottom: 0%;
+        margin-right: 2%;
+        margin-left: 2%;
+        cursor: pointer;                   
+    }
+    
+    .headerLogo > a > img {
+        width: 15vw;
+    }
+
+    input{
+        height: 3.5vh !important;
+    }  
+        
+    
+    .lupa{
+        display: flex;
+        margin: 5px;
+        width: 14px;
+        left: 88%;
+        bottom: 0.1%;
+        position: absolute;
+        cursor: pointer;
+    }
+    
+    /* --- */
+
+    .entre{
+        font-size: 1.5vw;
+        width: 12vw;
+        height: 4vh;
+        margin-left: 2%;
+    }
+
+    
+
+    .cad{
+        font-size: 1.5vw;
+        width: 18vw;
+        height: 4vh;
+
+    }
+
+    
+
+    nav > ol {
+        font-size: 1.7vw;
+    }
+
+    nav {
+        height: 5vh;
+    }
+
+    /* Titulo */
+
+    .container > h1 {
+        font-size: 2.5vw;
+        padding-left: 0;
+        width: 30vw;
+        height: 5vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    /* Box informações */
+    .container img{
+        margin-top: 5%;
+        display: flex;
+        width: 48vw;
+        height: 42vh;
+        margin-left: 5%;
+        
+           
+        
+                   
+    }
+
+    .conteudo {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .txtArea{
+        width: 83vw !important;
+        padding-left: 5%;
+        padding-right: 5%;
+        margin-top: 5%;
+       
+        text-align: justify;
+        font-size: 2.7vw;
+
+        
+    }
+    
+    /* FOOTER */
+    .footer {
+        height: 10vh;
+    }
+
+    .footerImg > a > img {
+        width: 15vw;
+        padding-top: 10%;
+        margin-left: 20%;
+        padding-right: 10%;
+    }
+
+    footer li{
+        font-size: 14px;
+    }
+
+    footer ul {
+        margin-left: -20%;
+    }
+
+}
+
+@media screen and (min-width: 901px) and (max-width: 1320px){
+    
+    header{
+        width: 100vw;
+        height: 24%;
+        background-size: 100% 100%;
+        
+    }
+        
+    
+    .headerLogo{
+        padding-top: 0%;
+        padding-bottom: 0%;
+        margin-right: 2%;
+        margin-left: 2%;
+        cursor: pointer;                   
+    }
+    
+    .headerLogo > a > img {
+        width: 10vw;
+        
+    }
+
+    input{
+        height: 3.5vh !important;
+        width: 70vw;
+        
+    }  
+        
+    
+    .lupa{
+        display: flex;
+        margin: 5px;
+        width: 18px;
+        left: 93%;
+        bottom: 0.1%;
+        position: absolute;
+        cursor: pointer;
+    }
+    
+    .search{
+        display: flex;
+        flex-direction: row;
+        width: 50%;
+        top: 0;
+        position: relative;
+    }
+     
+    /* --- */
+
+    .entre{
+        font-size: 1.5vw;
+        width: 12vw;
+        height: 4vh;
+        margin-left: 2%;
+    }
+
+    
+
+    .cad{
+        font-size: 1.5vw;
+        width: 18vw;
+        height: 4vh;
+
+    }
+
+    
+
+    nav > ol {
+        font-size: 1.7vw;
+    }
+
+    nav {
+        height: 5vh;
+    }
+
+
+     /* Titulo */
+
+     .container > h1 {
+        font-size: 2vw;
+        padding-left: 0;
+        width: 30vw;
+        height: 5vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    /* Box informações */
+    .container img{
+        margin-top: 5%;
+        display: flex;
+        width: 40vw;
+        height: 42vh;
+        margin-left: 10%;
+        
+           
+        
+                   
+    }
+
+    .conteudo {
+        display: flex;
+        flex-direction: row;
+        margin-left: 5%;
+    }
+
+    .txtArea{
+        width: 83vw !important;
+        padding-left: 10%;
+        padding-right: 10%;
+        margin-top: 5%;
+       
+        text-align: justify;
+        font-size: 2vw;
+
+        
+    }
+    
+     /* FOOTER */
+
+     .footerImg > a > img {
+        width: 10vw;
+        padding-top: 10%;
+        margin-left: 20%;
+        padding-right: 10%;
+    }
+
+    footer li{
+        font-size: 14px;
+    }
+
+    footer ul {
+        margin-left: -20%;
+    }
 }

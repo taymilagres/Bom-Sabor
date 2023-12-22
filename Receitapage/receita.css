@@ -109,6 +109,11 @@ input{
 
   }
 
+  .menuMobile {
+    visibility: hidden;
+}
+
+
 /* --- */
 
 .entre{
@@ -394,3 +399,438 @@ footer li{
     display: flex;
 }
 
+/* Mobile */
+
+@media screen and (max-width: 500px) {
+
+    /*Header*/
+    header{
+        width: 100vw;
+        height: 20%;
+        background-size: 100% 100%;
+        
+        
+    
+    }
+    
+    .headerLogo{
+        padding-top: 0%;
+        padding-bottom: 0%;
+        margin-right: 2%;
+        margin-left: 2%;
+        cursor: pointer;
+        
+        
+    }
+
+    .headerLogo > a > img {
+        width: 15vw;
+    }
+    
+    .search{
+        display: flex;
+        flex-direction: row;
+        width: 50%;
+        top: 0;
+        position: relative;
+    }
+
+
+    
+    
+    input{
+        width: 100%;
+        height: 3vh !important;
+        border-radius: 20px;
+        position: relative; 
+        padding-left: 5%;
+        padding-right: 6%;
+    }  
+        
+    
+    .lupa{
+        display: flex;
+        margin: 5px;
+        width: 12px;
+        left: 84%;
+        bottom: 0.1%;
+        position: absolute;
+        cursor: pointer;
+    }
+    
+    /* --- */
+
+    .entre{
+        display: none;
+    }
+
+    
+
+    .cad{
+        display: none;
+
+    }
+
+    .menuMobile {
+        visibility: visible;
+        margin-right: 6%;
+        
+    }
+
+    .menuMobile > .fa-bars{
+        font-size: 1.4rem;
+    }
+
+    nav > ol {
+        display: none;
+    }
+
+    nav {
+        display: none;
+    }
+
+    /* Titulo */
+     .copy h1 {
+        font-size: 7vw;
+     }
+
+    /* Dica */
+    .copyCont img {
+        width: 20vw;
+    }
+
+    .copyCont p {
+        font-size: 3vw;
+    }
+
+    .copyCont {
+        margin-bottom: 6%;
+    }
+
+    /* cards receitas */
+
+    #conteudo{
+        width: 100vw;
+        display: flex;
+        flex-direction: column;
+        
+            
+    }
+
+    .contSalada, .contLamen, .contPanqueca, .contPizza, .contCarne, .contCamarao, .contPeixe, .contTorta  {
+       width: 75vw;
+       height: 65%;
+    }
+    
+    #conteudo button{
+        width: 38vw;
+        height: 6vh;
+        background-color: #CC7105;       
+        font-size: 25px;
+        color: #fff;
+        margin-top: 6%;
+        margin-bottom: 5%;
+        margin-left: 5;
+        margin-right: 5;
+        
+    }
+
+     h2 {
+        font-size: 7vw;
+        
+    }
+
+    .contSalada h2, .contLamen h2, .contPanqueca h2, .contPizza h2, .contCarne h2, .contCamarao h2, .contPeixe h2, .contTorta h2  {
+        padding: 0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    /* Img pré footer */
+
+    .preFooter {
+        width: 100vw;
+        height: 20vh;
+        display: flex;
+    }
+
+    /* COPYRIGHT */
+    .copyrigth > p {
+        font-size: 13px;
+    }
+
+    /* FOOTER*/ 
+    .footer{
+        height: 10vh;
+    }
+
+    .footerImg > a > img {
+        width: 20vw;
+        padding-top: 10%;
+        margin-left: 20%;
+    }
+
+    footer li{
+        font-size: 12px;
+    }
+
+    footer ul {
+        margin-left: -20%;
+    }
+}
+
+@media screen and (min-width: 501px) and (max-width: 900px) {
+    header{
+        width: 100vw;
+        height: 20%;
+        background-size: 100% 100%;
+        
+    }
+        
+    
+    .headerLogo{
+        padding-top: 0%;
+        padding-bottom: 0%;
+        margin-right: 2%;
+        margin-left: 2%;
+        cursor: pointer;                   
+    }
+    
+    .headerLogo > a > img {
+        width: 15vw;
+    }
+
+    input{
+        height: 3.5vh !important;
+    }  
+        
+    
+    .lupa{
+        display: flex;
+        margin: 5px;
+        width: 26px;
+        left: 88%;
+        bottom: 0.1%;
+        position: absolute;
+        cursor: pointer;
+    }
+    
+    /* --- */
+
+    .entre{
+        font-size: 1.5vw;
+        width: 12vw;
+        height: 4vh;
+        margin-left: 2%;
+    }
+
+    
+
+    .cad{
+        font-size: 1.5vw;
+        width: 18vw;
+        height: 4vh;
+
+    }
+
+    
+
+    nav > ol {
+        font-size: 1.7vw;
+    }
+
+    nav {
+        height: 5vh;
+    }
+
+    /* Titulo */
+    .copy h1 {
+        font-size: 7vw;
+     }
+
+    /* Dica */
+    .copyCont img {
+        width: 20vw;
+    }
+
+    .copyCont p {
+        font-size: 3vw;
+    }
+
+    .copyCont {
+        margin-bottom: 6%;
+    }
+
+    /* Cards de Receitas */
+
+    #conteudo{
+        width: 86vw;
+        height: 100%;
+        display: grid;
+        grid-template-columns: 50% 50%;
+        grid-template-rows: 28% 28% 28% 28%;
+        row-gap: 2px;
+        column-gap: 0;   
+        padding-bottom: 60%;
+        margin-left: 8%;
+            
+    }
+
+    .contSalada, .contLamen, .contPanqueca, .contPizza, .contCarne, .contCamarao, .contPeixe, .contTorta  {
+        width: 40vw;
+        height: auto;
+        
+     }
+
+     .contSalada h2, .contLamen h2, .contPanqueca h2, .contPizza h2, .contCarne h2, .contCamarao h2, .contPeixe h2, .contTorta h2  {
+        padding: 0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+    }
+
+    h2 {
+        font-size: 4.4vw;
+        
+    }
+
+    #conteudo button{
+        width: 24vw;
+        height: 4vh;
+        background-color: #CC7105;       
+        font-size: 20px;
+        color: #fff;
+        margin-top: 6%;
+        margin-bottom: 5%;
+        margin-left: 2;
+        margin-right: 4;
+        
+    }
+
+     /* Img pré footer */
+
+     .preFooter {
+        width: 100vw;
+        height: 20vh;
+        display: flex;
+    }
+
+    /* FOOTER */
+    .footer {
+        height: 10vh;
+    }
+
+    .footerImg > a > img {
+        width: 15vw;
+        padding-top: 10%;
+        margin-left: 20%;
+        padding-right: 10%;
+    }
+
+    footer li{
+        font-size: 14px;
+    }
+
+    footer ul {
+        margin-left: -20%;
+    }
+    
+
+
+}
+
+@media screen and (min-width: 901px) and (max-width: 1320px){
+    
+    header{
+        width: 100vw;
+        height: 24%;
+        background-size: 100% 100%;
+        
+    }
+        
+    
+    .headerLogo{
+        padding-top: 0%;
+        padding-bottom: 0%;
+        margin-right: 2%;
+        margin-left: 2%;
+        cursor: pointer;                   
+    }
+    
+    .headerLogo > a > img {
+        width: 10vw;
+        
+    }
+
+    input{
+        height: 3.5vh !important;
+        width: 70vw;
+        
+    }  
+        
+    
+    .lupa{
+        display: flex;
+        margin: 5px;
+        width: 18px;
+        left: 93%;
+        bottom: 0.1%;
+        position: absolute;
+        cursor: pointer;
+    }
+    
+    .search{
+        display: flex;
+        flex-direction: row;
+        width: 50%;
+        top: 0;
+        position: relative;
+    }
+     
+    /* --- */
+
+    .entre{
+        font-size: 1.5vw;
+        width: 12vw;
+        height: 4vh;
+        margin-left: 2%;
+    }
+
+    
+
+    .cad{
+        font-size: 1.5vw;
+        width: 18vw;
+        height: 4vh;
+
+    }
+
+    
+
+    nav > ol {
+        font-size: 1.7vw;
+    }
+
+    nav {
+        height: 5vh;
+    }
+
+    /* FOOTER */
+
+    .footerImg > a > img {
+        width: 10vw;
+        padding-top: 10%;
+        margin-left: 20%;
+        padding-right: 10%;
+    }
+
+    footer li{
+        font-size: 18px;
+    }
+
+    footer ul {
+        margin-left: -20%;
+    }
+}
