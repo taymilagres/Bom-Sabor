@@ -26,7 +26,7 @@ header{
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
-    background-image: url(img/header.png);
+    background-image: url(./img/header.png);
     background-size: 100%;
 
 }
@@ -712,9 +712,9 @@ footer li{
      /* Img pré footer */
 
      .preFooter {
-        width: 100vw;
-        height: 20vh;
+        width: 100%;
         display: flex;
+        
     }
 
     /* FOOTER */
