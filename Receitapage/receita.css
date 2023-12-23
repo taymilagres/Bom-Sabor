@@ -712,9 +712,9 @@ footer li{
      /* Img pré footer */
 
      .preFooter {
-        width: 100vw;
-        height: 20vh;
+        width: 100%;
         display: flex;
+        
     }
 
     /* FOOTER */
