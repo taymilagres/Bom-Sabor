@@ -515,6 +515,59 @@ footer li{
     footer ul {
         margin-left: -20%;
     }
+
+    /* Pesquisa */
+    .busca{
+       
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        font-size: 3.6vw;
+        border-radius: 10px;
+        top: 9%;
+        left: 28%;
+        background-color: rgba(255, 253, 253, 0.922);
+        width: 50%;
+        text-align: center;
+        margin-top: 5px;
+        float: left;
+        z-index: 5;
+        
+      
+      
+      }
+
+    .busca ul{
+        margin-left: -22%;
+    }
+    
+}
+
+@media screen and (min-width: 377px) and (max-width: 500px){
+    /* Pesquisa */
+    .busca{
+       
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        font-size: 3vw;
+        border-radius: 10px;
+        top: 8%;
+        left: 30%;
+        background-color: rgba(255, 253, 253, 0.922);
+        width: 49%;
+        text-align: center;
+        margin-top: 5px;
+        float: left;
+        z-index: 5;
+        
+      
+      
+      }
+
+    .busca ul{
+        margin-left: -20%;
+    }
     
 }
 
@@ -644,6 +697,86 @@ footer li{
         margin-left: -20%;
     }
 
+    /* Pesquisa */
+    .busca{
+       
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        font-size: 2vw;
+        border-radius: 10px;
+        top: 8%;
+        left: 19%;
+        background-color: rgba(255, 253, 253, 0.922);
+        width: 45.5%;
+        text-align: center;
+        margin-top: 5px;
+        float: left;
+        z-index: 5;
+        
+      
+      
+      }
+
+    .busca ul{
+        margin-left: -20%;
+    }
+
+
+}
+
+@media screen and (min-width: 622px) and (max-width: 732px){
+    /* Pesquisa */
+    .busca{
+       
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        font-size: 2vw;
+        border-radius: 10px;
+        top: 8%;
+        left: 19%;
+        background-color: rgba(255, 253, 253, 0.922);
+        width: 45.5%;
+        text-align: center;
+        margin-top: 5px;
+        float: left;
+        z-index: 5;
+        
+      
+      
+      }
+
+    .busca ul{
+        margin-left: -20%;
+    }
+}
+
+@media screen and (min-width: 732px) and (max-width: 900px){
+    /* Pesquisa */
+    .busca{
+      
+       display: flex;
+       flex-direction: column;
+       position: absolute;
+       font-size: 2vw;
+       border-radius: 10px;
+       top: 8%;
+       left: 19%;
+       background-color: rgba(255, 253, 253, 0.922);
+       width: 46%;
+       text-align: center;
+       margin-top: 5px;
+       float: left;
+       z-index: 5;
+       
+     
+     
+     }
+
+   .busca ul{
+       margin-left: -20%;
+   }
 }
 
 @media screen and (min-width: 901px) and (max-width: 1320px){
@@ -781,5 +914,30 @@ footer li{
 
     footer ul {
         margin-left: -20%;
+    }
+
+     /* Pesquisa */
+     .busca{
+       
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        font-size: 1.7vw;
+        border-radius: 10px;
+        top: 9%;
+        left: 14%;
+        background-color: rgba(255, 253, 253, 0.922);
+        width: 50%;
+        text-align: center;
+        margin-top: 5px;
+        float: left;
+        z-index: 5;
+        
+      
+      
+      }
+
+    .busca ul{
+        margin-left: -15%;
     }
 }
