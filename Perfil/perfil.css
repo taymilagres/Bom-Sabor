@@ -240,7 +240,6 @@ nav a:hover::after{
     width: 100%;
     height: 25vh;
     opacity: 100%;
-    cursor: pointer;
     position: relative;
  }
 
@@ -405,4 +404,177 @@ textarea:hover{
      align-items: center;
      justify-content: center;
      display: flex;
+ }
+
+ /* Medias Queries */
+
+ @media screen and (max-width: 500px) {
+
+    body{
+        overflow-x: hidden;
+    }
+
+    /*Header*/
+    header{
+        width: 100vw;
+        height: 20%;
+        background-size: 100% 100%;
+        
+        
+    
+    }
+    
+    .headerLogo{
+        padding-top: 0%;
+        padding-bottom: 0%;
+        margin-right: 2%;
+        margin-left: 2%;
+        cursor: pointer;
+        
+        
+    }
+
+    .headerLogo > a > img {
+        width: 15vw;
+    }
+    
+    .search{
+        display: flex;
+        flex-direction: row;
+        width: 50%;
+        top: 0;
+        position: relative;
+    }
+
+
+    
+    
+    .search input{
+        width: 100%;
+        height: 3vh !important;
+        border-radius: 20px;
+        position: relative; 
+        padding-left: 5%;
+        padding-right: 6%;
+    }  
+        
+    
+    .lupa{
+        display: flex;
+        margin: 5px;
+        width: 12px;
+        left: 84%;
+        bottom: 0.1%;
+        position: absolute;
+        cursor: pointer;
+    }
+    
+    /* --- */
+
+    .entre{
+        display: none;
+    }
+
+    
+
+    .cad{
+        display: none;
+
+    }
+
+    .menuMobile {
+        visibility: visible;
+        margin-right: 6%;
+        
+    }
+
+    .menuMobile > .fa-bars{
+        font-size: 1.4rem;
+    }
+
+    nav > ol {
+        display: none;
+    }
+
+    nav {
+        display: none;
+    }
+
+    .conteudo{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .favBox{
+        display: flex;
+        flex-direction: column;
+    }
+
+    /* CONTEUDO */
+
+    .container{
+        width: 85vw;
+        display: flex;
+        justify-content: center;
+        margin-left: 8%;
+        
+
+    }
+
+    .container h1{
+        width: 80vw;
+        align-self: normal;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 6vw;
+    }
+
+    .infoContent Label {
+        margin-top: 15%;
+        margin-bottom: 10%;
+        width: 80vw;
+    }
+
+    .infoContent textarea {
+        width: 75vw;
+        border-radius: 15px;
+    }
+
+    .perfil{
+        width: 100%;
+        max-width: 45vw;
+        border-radius: 50%;
+    }
+    
+     .imgPerfil img{
+        background-color: #dddada;
+        width: 45vw;
+        border-radius: 50%;
+        
+        
+     }
+    
+     .imgPerfil{
+        display: flex;
+        position: absolute;
+        width: 45vw;
+        height: 45vw;
+        bottom: 26%;
+        left: 29%;
+        top: 25%;
+        cursor: pointer;
+     }
+    
+    .imgPerfil img:hover{
+        background-color: #c1c1c1;
+        border: solid 5px #7f7e7e;
+    }
+
+    /* FAVORITOS */
+
+    .favoritos h1 {
+        font-size: 6vw;
+    }
+
  }

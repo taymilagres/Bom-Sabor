@@ -241,15 +241,13 @@ main {
     flex-direction: column;
 }
 
-main h1 {
-    margin-top: 4%;
-}
 
 .container h2 {
     font-size: 1.7vw;
     padding-bottom: 0%;
     margin-top: 5%;
     margin-left: 6%;
+    color: #df7e07;
 }
 
 .container p {
@@ -281,7 +279,7 @@ label{
 .container button {
     width: 17vw;
     height: 5vh;
-    font-size: 1.4vw;
+    font-size: 1.2vw;
     border-radius: 20px;
     border: none;
     background-color: #df7e07;
@@ -322,3 +320,432 @@ footer li{
     justify-content: center;
     display: flex;
 }
+
+/* Responsividade */
+
+@media screen and (max-width: 500px) {
+
+    body{
+        overflow-x: hidden;
+    }
+
+    /*Header*/
+    header{
+        width: 100vw;
+        height: 20%;
+        background-size: 100% 100%;
+        
+        
+    
+    }
+    
+    .headerLogo{
+        padding-top: 0%;
+        padding-bottom: 0%;
+        margin-right: 2%;
+        margin-left: 2%;
+        cursor: pointer;
+        
+        
+    }
+
+    .headerLogo > a > img {
+        width: 15vw;
+    }
+    
+    .search{
+        display: flex;
+        flex-direction: row;
+        width: 50%;
+        top: 0;
+        position: relative;
+    }
+
+
+    
+    
+    input{
+        width: 100%;
+        height: 3vh !important;
+        border-radius: 20px;
+        position: relative; 
+        padding-left: 5%;
+        padding-right: 6%;
+    }  
+        
+    
+    .lupa{
+        display: flex;
+        margin: 5px;
+        width: 12px;
+        left: 84%;
+        bottom: 0.1%;
+        position: absolute;
+        cursor: pointer;
+    }
+    
+    /* --- */
+
+    .entre{
+        display: none;
+    }
+
+    
+
+    .cad{
+        display: none;
+
+    }
+
+    .menuMobile {
+        visibility: visible;
+        margin-right: 6%;
+        
+    }
+
+    .menuMobile > .fa-bars{
+        font-size: 1.4rem;
+    }
+
+    nav > ol {
+        display: none;
+    }
+
+    nav {
+        display: none;
+    }
+
+    /* CONTAINER */
+
+    .container{
+        width: 90vw;
+        margin-bottom: 50%;
+        margin-top: 10%;
+    }
+
+    .container h2{
+        width: 80vw;
+        font-size: 5vw;
+    }
+
+    .container p {
+        width: 85vw;
+        font-size: 4vw;
+    }
+
+    .labels {
+        width: 80vw;
+        margin-left: 15%;
+        margin-top: 5%;
+    }
+
+    .labels label {
+        font-size: 4vw;
+    }
+
+    .labels input {
+        width: 60vw;
+    }
+
+    .container button {
+        width: 40vw;
+        height: 4vh;
+        margin-left: 26%;
+        font-size: 4vw;
+        font-weight: 500;
+        margin-bottom: 10%;
+    }
+
+    /* COPYRIGHT */
+    .copyrigth > p {
+        font-size: 13px;
+    }
+
+    /* FOOTER*/ 
+    .footer{
+        height: 10vh;
+    }
+
+    .footerImg > a > img {
+        width: 20vw;
+        padding-top: 10%;
+        margin-left: 20%;
+    }
+
+    footer li{
+        font-size: 12px;
+    }
+
+    footer ul {
+        margin-left: -20%;
+    }
+}
+
+@media screen and (min-width: 501px) and (max-width: 900px) {
+    header{
+        width: 100vw;
+        height: 20%;
+        background-size: 100% 100%;
+        
+    }
+        
+    
+    .headerLogo{
+        padding-top: 0%;
+        padding-bottom: 0%;
+        margin-right: 2%;
+        margin-left: 2%;
+        cursor: pointer;                   
+    }
+    
+    .headerLogo > a > img {
+        width: 15vw;
+    }
+
+    input{
+        height: 3.5vh !important;
+    }  
+        
+    
+    .lupa{
+        display: flex;
+        margin: 5px;
+        width: 2.5vw;
+        left: 88%;
+        bottom: 0.1%;
+        position: absolute;
+        cursor: pointer;
+    }
+    
+    /* --- */
+
+    .entre{
+        font-size: 1.5vw;
+        width: 12vw;
+        height: 4vh;
+        margin-left: 2%;
+    }
+
+    
+
+    .cad{
+        font-size: 1.5vw;
+        width: 18vw;
+        height: 4vh;
+
+    }
+
+    
+
+    nav > ol {
+        font-size: 1.7vw;
+    }
+
+    nav {
+        height: 5vh;
+    }
+
+    /* CONTAINER */
+
+    .container{
+        width: 65vw;
+        margin-bottom: 50%;
+        margin-top: 10%;
+    }
+
+    .container h2{
+        width: 60vw;
+        font-size: 3vw;
+    }
+
+    .container p {
+        width: 60vw;
+        font-size: 2.5vw;
+    }
+
+    .labels {
+        width: 60vw;
+        margin-left: 15%;
+        margin-top: 5%;
+    }
+
+    .labels label {
+        font-size: 2.5vw;
+    }
+
+    .labels input {
+        width: 45vw;
+    }
+
+    .container button {
+        width: 30vw;
+        height: 4vh;
+        margin-left: 26%;
+        font-size: 2.5vw;
+        font-weight: 500;
+        margin-bottom: 10%;
+    }
+
+    /* FOOTER */
+    .footer {
+        height: 10vh;
+    }
+
+    .footerImg > a > img {
+        width: 15vw;
+        padding-top: 10%;
+        margin-left: 20%;
+        padding-right: 10%;
+    }
+
+    footer li{
+        font-size: 14px;
+    }
+
+    footer ul {
+        margin-left: -20%;
+    }
+
+
+}
+
+@media screen and (min-width: 901px) and (max-width: 1320px){
+    
+    header{
+        width: 100vw;
+        height: 24%;
+        background-size: 100% 100%;
+        
+    }
+        
+    
+    .headerLogo{
+        padding-top: 0%;
+        padding-bottom: 0%;
+        margin-right: 2%;
+        margin-left: 2%;
+        cursor: pointer;                   
+    }
+    
+    .headerLogo > a > img {
+        width: 10vw;
+        
+    }
+
+    input{
+        height: 3.5vh !important;
+        width: 70vw;
+        
+    }  
+        
+    
+    .lupa{
+        display: flex;
+        margin: 5px;
+        width: 18px;
+        left: 93%;
+        bottom: 0.1%;
+        position: absolute;
+        cursor: pointer;
+    }
+    
+    .search{
+        display: flex;
+        flex-direction: row;
+        width: 50%;
+        top: 0;
+        position: relative;
+    }
+     
+    /* --- */
+
+    .entre{
+        font-size: 1.5vw;
+        width: 12vw;
+        height: 4vh;
+        margin-left: 2%;
+    }
+
+    
+
+    .cad{
+        font-size: 1.5vw;
+        width: 18vw;
+        height: 4vh;
+
+    }
+
+    
+
+    nav > ol {
+        font-size: 1.4vw;
+    }
+
+    nav {
+        height: 5vh;
+    }
+
+    /* CONTAINER */
+
+    .container{
+        width: 55vw;
+        margin-bottom: 50%;
+        margin-top: 10%;
+    }
+
+    .container h2{
+        width: 50vw;
+        font-size: 2.7vw;
+    }
+
+    .container p {
+        width: 50vw;
+        font-size: 1.7vw;
+    }
+
+    .labels {
+        width: 50vw;
+        margin-left: 15%;
+        margin-top: 5%;
+    }
+
+    .labels label {
+        font-size: 1.7vw;
+    }
+
+    .labels input {
+        width: 38vw;
+    }
+
+    .container button {
+        width: 25vw;
+        height: 4vh;
+        margin-left: 26%;
+        font-size: 1.7vw;
+        font-weight: 500;
+        margin-bottom: 10%;
+    }
+
+    /* FOOTER */
+
+    .footerImg > a > img {
+        width: 10vw;
+        padding-top: 10%;
+        margin-left: 20%;
+        padding-right: 10%;
+    }
+
+    footer li{
+        font-size: 18px;
+    }
+
+    footer ul {
+        margin-left: -20%;
+    }
+
+    html, body {
+        overflow-x: hidden;
+    }
+
+}
+
